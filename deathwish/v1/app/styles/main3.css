@@ -1,0 +1,291 @@
+/*base*/
+
+body {
+  padding-top: 40px;
+  background-color: #ffffff;
+  background-image: url("../images/16.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #FFF;
+  font-family: "Roboto", "Nunito", sans-serif;
+  font-size: 19px;
+  letter-spacing: 0.05em;
+  position: relative;
+}
+
+#btn-odd {
+  color: #fff;
+}
+
+#btn-odd:hover {
+  color: #000;
+}
+
+
+/*layout*/
+
+.navbar {
+  /*overwrite default setting less r14*/
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-brand > img {
+  /* display: inline-block; */
+  position: relative;
+  top: -7px;
+}
+
+.container, .container-fluid{
+  background-color: #ffffff;
+  /*padding: 0px 0px 0px 0px;*/
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0px;
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: #418CAF;
+  margin-top: 50px;
+  height: 450px;
+  border-radius: 0px !important;
+}
+
+.jumboLead {
+  /*padding: 60px 1px 10px 10px;*/
+}
+
+.jumbotron .panel {
+  border: 1px solid #fff;
+}
+
+.jumbotron .panel-body {
+
+}
+
+.panel {
+  background-color: transparent;
+}
+
+.rowFooter {
+  height: auto;
+  min-height: 60px;
+  background-color: transparent;
+}
+
+.rowBody {
+  height: auto;
+  min-height:300px;
+}
+
+.rowHead .even {
+  text-transform: uppercase;
+  font-size: 34px;
+  border-top:1px solid #418CAF;
+}
+
+
+.panel .btn {
+  font-size: 21px;
+  /*margin-top: 18%;*/
+}
+.panel-footer{
+  background-color: transparent;
+}
+
+.row {
+  height: auto;
+  min-height: 250px;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.odd {
+  background-color: #418CAF;
+}
+
+.even {
+  color: #418CAF;
+  background-color:#FFFF;
+}
+
+.outer {
+  display: block;
+  padding: 1px;
+  margin: 0px 0px 20px 0px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+
+.caption {
+  background-color: #E0E2EE;
+}
+
+.affix {
+  top: 515px;
+}
+
+.well {
+  opacity: 0.1;
+  position: relative;
+  display: inline-block;
+  /*margin-top:25px;*/
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+  /*padding-left: 15px;*/
+  /*padding-right: 15px;*/
+}
+
+
+/* Custom page header */
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+
+/* Custom page footer */
+
+.footer {
+  /*padding-top: 19px;*/
+  color: #777;
+  /*border-top: 1px solid #e5e5e5;*/
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.infoTxt {
+  font-size: 0.9em;
+  ;
+}
+
+
+/* Main marketing message and sign up button */
+
+
+/* Supporting marketing content */
+
+.marketing {
+  margin: 40px 0;
+}
+
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.thumbnail {
+  border: 0px;
+}
+
+.teaserImg {
+  border: 1px solid #000;
+  padding-bottom: 1%;
+}
+
+.thumbnail .image-responsive {
+  width: 75%;
+  padding-left: 16%;
+}
+
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+  border: 1px solid;
+  margin-top: 2%;
+}
+
+#up1 {
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  /* afschuining links */
+  border-right: 20px solid transparent;
+  /* afschuining rechts */
+  border-bottom: 20px solid teal;
+  /* onderkant, border met kleur */
+}
+
+
+/*modules*/
+
+
+/*state*/
+
+
+/*themes*/
+
+
+/*responsive*/
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 80%;
+  }
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {}
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+.panel .btn {
+  font-size: 12px;
+  /*margin-top: 18%;*/
+}
+
+.jumbotron h1, .jumbotron .h1 {
+    font-size: 47px;
+}
+
+
+  .image-responsive{
+    width:55%;
+  }
+
+}
+
+
+
